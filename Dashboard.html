@@ -80,7 +80,7 @@
                         </tr>
                         <tr>
                               <th scope="row" id="up8"></th>
-                        <td class="row"><a href="your_link_here"><i class="fa-solid fa-circle fa-beat fa-sm" style="color: #ff0000;"></i> View Client Profile</a></td>
+                        <td class="row" data-menu="error" <a href="#"><i class="fa-solid fa-circle fa-beat fa-sm" style="color: #ff0000;"></i> View Client Profile</a></td>
                         </tr>
                         <tr>
                     </tbody>
@@ -93,7 +93,14 @@
     
     <!-- Main Menu--> 
 
-
+ <div id="error" 
+    class="menu menu-box-modal rounded-xl" 
+    data-menu-hide="1000"
+    data-menu-width="320"
+    data-menu-height="200">
+    <h1 class="text-center fa-5x mt-2 pt-3 pb-2"><i class="fa fa-times-circle color-red-light"></i></h1>
+    <h2 class="text-center">Username & Password <br> Invalid, Please Contact Us!</h2>
+</div>
     
     <!-- Share Menu-->
 
